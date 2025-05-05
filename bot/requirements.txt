@@ -1,1 +1,3 @@
-python-telegram-bot\nrequests\npython-dotenv
+python-telegram-bot
+requests
+python-dotenv
