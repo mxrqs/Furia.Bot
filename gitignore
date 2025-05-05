@@ -1,0 +1,33 @@
+# Ignora todos os arquivos .env do projeto
+**/.env
+
+# Ignora os exemplos gerados (se necessário)
+*.env.local
+*.env.*.local
+
+# Ignora pastas de dependências Node.js
+**/node_modules/
+
+# Ignora arquivos Python compilados
+*.pyc
+__pycache__/
+
+# Ignora arquivos de log e cache
+*.log
+*.cache
+.cache/
+
+# Ignora arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos de virtualenvs (caso use)
+venv/
+.env/
+
+# Ignora pastas do VSCode (opcional)
+.vscode/
+
+# Ignora arquivos do sistema operacional (Windows/Mac)
+ehthumbs.db
+desktop.ini
